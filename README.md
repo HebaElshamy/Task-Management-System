@@ -41,7 +41,7 @@ For detailed information about the API endpoints, including request and response
 
 1. Clone the repository.
   ```bash
-   git clone https://github.com/HebaElshamy/Cart-Pricing-Program.git
+   git clone https://github.com/HebaElshamy/Task-Management-System.git
 
 ```
 2.  Install project dependencies using Composer:
