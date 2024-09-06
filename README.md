@@ -36,4 +36,43 @@ The solution leverages the following technologies and methodologies to achieve i
 For detailed information about the API endpoints, including request and response formats, authentication methods, and example payloads, please refer to the comprehensive API documentation available at:
 
 [API Documentation](https://documenter.getpostman.com/view/25951230/2sAXjRUp3r)
-  
+
+## How to Run the Program
+
+1. Clone the repository.
+  ```bash
+   git clone https://github.com/HebaElshamy/Cart-Pricing-Program.git
+
+```
+2.  Install project dependencies using Composer:
+   ```bash
+   composer install
+```
+
+3. Copy the .env.example file and rename it to .env:
+ ```bash
+    cp .env.example .env
+```
+4. Generate the application key:
+   ```bash
+    php artisan key:generate
+5. Configure the .env file with your database connection details   
+6. Run the database migrations to create tables:
+    ```bash
+    php artisan migrate
+
+7. Populate the database with the required data.
+    ```bash
+    php artisan db:seed
+8. Start the local server:
+    ```bash
+    php artisan serve
+9. To test the API endpoints, use Postman or any API client of your choice. You can access the API endpoints by sending requests to `http://localhost:8000`. Ensure that you include the appropriate headers and payloads as specified in the [API Documentation](https://documenter.getpostman.com/view/25951230/2sAXjRUp3r).
+
+10. To login as an user, use the following credentials:
+    
+    - Email: userone@example.com
+    - Password: password123
+    - Email: usertwo@example.com
+    - Password: password123
+11. Enjoy your experience!
