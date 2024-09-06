@@ -35,5 +35,5 @@ The solution leverages the following technologies and methodologies to achieve i
 
 For detailed information about the API endpoints, including request and response formats, authentication methods, and example payloads, please refer to the comprehensive API documentation available at:
 
-[API Documentation](https://documenter.getpostman.com/view/25951230/2sAXjQ2W6f)
+[API Documentation](https://documenter.getpostman.com/view/25951230/2sAXjRUp3r)
   
